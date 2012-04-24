@@ -34,6 +34,27 @@
 		AC6F028B12513567003E7610 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC6F028912513567003E7610 /* Icon.png */; };
 		AC6F028C12513567003E7610 /* Icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = AC6F028A12513567003E7610 /* Icon72.png */; };
 		AC6F028E1251360B003E7610 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC6F028D1251360B003E7610 /* Icon@2x.png */; };
+		D40456DA154757A5008AE56D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		D40456DB154757AA008AE56D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		D40456DC154757AE008AE56D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC13782A124ECCD800D21E3F /* QuartzCore.framework */; };
+		D40456DD154757B5008AE56D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC137830124ECCDC00D21E3F /* OpenGLES.framework */; };
+		D40456DE154757BD008AE56D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		D40456DF154757CD008AE56D /* DoorsTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = AC3E6FA8125264130066AF56 /* DoorsTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D40456E0154757CD008AE56D /* ClothTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = AC169CD4124FF423008F43EA /* ClothTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D40456E1154757CD008AE56D /* RotateTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = AC169A71124FCD72008F43EA /* RotateTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D40456E2154757CD008AE56D /* FlipTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = AC137925124ED75E00D21E3F /* FlipTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D40456E3154757CD008AE56D /* Switch3DTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = AC137843124ECD2B00D21E3F /* Switch3DTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D40456E4154757CD008AE56D /* HMGLTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = AC13783B124ECD2B00D21E3F /* HMGLTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D40456E5154757CD008AE56D /* HMGLTransitionView.h in Headers */ = {isa = PBXBuildFile; fileRef = AC137841124ECD2B00D21E3F /* HMGLTransitionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D40456E6154757CD008AE56D /* HMGLTransitionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AC13783D124ECD2B00D21E3F /* HMGLTransitionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D40456E7154757E2008AE56D /* DoorsTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3E6FA9125264130066AF56 /* DoorsTransition.m */; };
+		D40456E8154757E2008AE56D /* ClothTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AC169CD5124FF423008F43EA /* ClothTransition.m */; };
+		D40456E9154757E2008AE56D /* RotateTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AC169A72124FCD72008F43EA /* RotateTransition.m */; };
+		D40456EA154757E2008AE56D /* FlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AC137926124ED75E00D21E3F /* FlipTransition.m */; };
+		D40456EB154757E2008AE56D /* Switch3DTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AC137844124ECD2B00D21E3F /* Switch3DTransition.m */; };
+		D40456EC154757E2008AE56D /* HMGLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AC13783C124ECD2B00D21E3F /* HMGLTransition.m */; };
+		D40456ED154757E2008AE56D /* HMGLTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC137842124ECD2B00D21E3F /* HMGLTransitionView.m */; };
+		D40456EE154757E2008AE56D /* HMGLTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC13783E124ECD2B00D21E3F /* HMGLTransitionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +66,7 @@
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2899E5210DE3E06400AC0155 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		28D7ACF60DDB3853001CB0EB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = RootViewController.h; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		28D7ACF70DDB3853001CB0EB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* HMGLTransitions_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGLTransitions_Prefix.pch; sourceTree = "<group>"; };
@@ -65,7 +86,7 @@
 		AC137926124ED75E00D21E3F /* FlipTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipTransition.m; sourceTree = "<group>"; };
 		AC169A71124FCD72008F43EA /* RotateTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateTransition.h; sourceTree = "<group>"; };
 		AC169A72124FCD72008F43EA /* RotateTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateTransition.m; sourceTree = "<group>"; };
-		AC169B0E124FD5FC008F43EA /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = ModalViewController.h; sourceTree = "<group>"; };
+		AC169B0E124FD5FC008F43EA /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
 		AC169B0F124FD5FC008F43EA /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 		AC169B10124FD5FC008F43EA /* ModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ModalViewController.xib; path = Classes/ModalViewController.xib; sourceTree = "<group>"; };
 		AC169B6A124FE159008F43EA /* HMLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HMLogo.png; sourceTree = "<group>"; };
@@ -78,6 +99,7 @@
 		AC6F028912513567003E7610 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		AC6F028A12513567003E7610 /* Icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon72.png; sourceTree = "<group>"; };
 		AC6F028D1251360B003E7610 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		D46BAB2F154037B400F14B40 /* libHMGLTransitions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHMGLTransitions.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +112,18 @@
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 				AC13782B124ECCD800D21E3F /* QuartzCore.framework in Frameworks */,
 				AC137831124ECCDC00D21E3F /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46BAB2C154037B400F14B40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40456DE154757BD008AE56D /* CoreGraphics.framework in Frameworks */,
+				D40456DD154757B5008AE56D /* OpenGLES.framework in Frameworks */,
+				D40456DC154757AE008AE56D /* QuartzCore.framework in Frameworks */,
+				D40456DB154757AA008AE56D /* UIKit.framework in Frameworks */,
+				D40456DA154757A5008AE56D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* HMGLTransitions.app */,
+				D46BAB2F154037B400F14B40 /* libHMGLTransitions.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -218,10 +253,28 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		D46BAB2D154037B400F14B40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40456DF154757CD008AE56D /* DoorsTransition.h in Headers */,
+				D40456E0154757CD008AE56D /* ClothTransition.h in Headers */,
+				D40456E1154757CD008AE56D /* RotateTransition.h in Headers */,
+				D40456E2154757CD008AE56D /* FlipTransition.h in Headers */,
+				D40456E3154757CD008AE56D /* Switch3DTransition.h in Headers */,
+				D40456E4154757CD008AE56D /* HMGLTransition.h in Headers */,
+				D40456E5154757CD008AE56D /* HMGLTransitionView.h in Headers */,
+				D40456E6154757CD008AE56D /* HMGLTransitionManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* HMGLTransitions */ = {
+		1D6058900D05DD3D006BFB54 /* HMGLTransitions.app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HMGLTransitions" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HMGLTransitions.app" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -231,10 +284,27 @@
 			);
 			dependencies = (
 			);
-			name = HMGLTransitions;
+			name = HMGLTransitions.app;
 			productName = HMGLTransitions;
 			productReference = 1D6058910D05DD3D006BFB54 /* HMGLTransitions.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D46BAB2E154037B400F14B40 /* HMGLTransitions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46BAB39154037B400F14B40 /* Build configuration list for PBXNativeTarget "HMGLTransitions" */;
+			buildPhases = (
+				D46BAB2B154037B400F14B40 /* Sources */,
+				D46BAB2C154037B400F14B40 /* Frameworks */,
+				D46BAB2D154037B400F14B40 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMGLTransitions;
+			productName = libHMGLTransitions;
+			productReference = D46BAB2F154037B400F14B40 /* libHMGLTransitions.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -258,7 +328,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* HMGLTransitions */,
+				1D6058900D05DD3D006BFB54 /* HMGLTransitions.app */,
+				D46BAB2E154037B400F14B40 /* HMGLTransitions */,
 			);
 		};
 /* End PBXProject section */
@@ -300,6 +371,21 @@
 				AC169B11124FD5FC008F43EA /* ModalViewController.m in Sources */,
 				AC169CD6124FF423008F43EA /* ClothTransition.m in Sources */,
 				AC3E6FAA125264130066AF56 /* DoorsTransition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46BAB2B154037B400F14B40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40456E7154757E2008AE56D /* DoorsTransition.m in Sources */,
+				D40456E8154757E2008AE56D /* ClothTransition.m in Sources */,
+				D40456E9154757E2008AE56D /* RotateTransition.m in Sources */,
+				D40456EA154757E2008AE56D /* FlipTransition.m in Sources */,
+				D40456EB154757E2008AE56D /* Switch3DTransition.m in Sources */,
+				D40456EC154757E2008AE56D /* HMGLTransition.m in Sources */,
+				D40456ED154757E2008AE56D /* HMGLTransitionView.m in Sources */,
+				D40456EE154757E2008AE56D /* HMGLTransitionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,10 +454,61 @@
 			};
 			name = Release;
 		};
+		D46BAB37154037B400F14B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/libHMGLTransitions.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HMGLTransitions_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PUBLIC_HEADERS_FOLDER_PATH = include/HMGLTransitions;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D46BAB38154037B400F14B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/libHMGLTransitions.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HMGLTransitions_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PUBLIC_HEADERS_FOLDER_PATH = include/HMGLTransitions;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HMGLTransitions" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HMGLTransitions.app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -385,6 +522,15 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D46BAB39154037B400F14B40 /* Build configuration list for PBXNativeTarget "HMGLTransitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46BAB37154037B400F14B40 /* Debug */,
+				D46BAB38154037B400F14B40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
